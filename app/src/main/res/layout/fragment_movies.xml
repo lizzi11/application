@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Movies"
+    android:background="#E8232323">
+    <TextView
+        android:id="@+id/movies"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="movies"
+        android:textAlignment="center"
+        android:textColor="#D3C6C6"
+
+        android:textSize="30dp"
+        />
+    <LinearLayout
+        android:layout_below="@id/movies"
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="american beauty"
+                android:textAlignment="center"
+                android:textSize="13dp"
+                android:textColor="#D3C6C6"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/image1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="dogville"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="#D3C6C6"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/movie3" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="gone girl"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="#D3C6C6"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/movie2" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@+id/first"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-1dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="the choise"
+                android:textColor="#D3C6C6"
+
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/choice" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="life of david gale"
+                android:textColor="#D3C6C6"
+
+                android:textAlignment="center"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/movie4" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="persona"
+                android:textColor="#D3C6C6"
+
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/movie6" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/second"
+
+        android:padding="20dp">
+
+
+        <LinearLayout
+            android:layout_width="119dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:textColor="#D3C6C6"
+
+                android:text="closer"
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/movie7" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="little italy"
+                android:textAlignment="center"
+                android:textColor="#D3C6C6"
+
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/movie8" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="invisable gust"
+                android:textAlignment="center"
+                android:textColor="#D3C6C6"
+
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/movie9" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

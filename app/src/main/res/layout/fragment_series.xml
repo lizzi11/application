@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Series"
+    android:background="#E8232323">
+    <TextView
+        android:id="@+id/movies"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Series"
+        android:textAlignment="center"
+        android:textColor="#D3C6C6"
+
+        android:textSize="30dp"
+        />
+    <LinearLayout
+        android:layout_below="@id/movies"
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="The leaftovers"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textColor="#D3C6C6"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/s1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Dark"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="#D3C6C6"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/s2" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="11.22.63"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="#D3C6C6"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/s3" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@+id/first"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="-1dp"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Homeland"
+                android:textColor="#D3C6C6"
+
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/s4" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="fleabag"
+                android:textColor="#D3C6C6"
+
+                android:textAlignment="center"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/s5" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Game of throne"
+                android:textColor="#D3C6C6"
+
+                android:textAlignment="center"
+                android:textSize="14dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/s6" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginStart="0dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/second"
+
+        android:padding="20dp">
+
+
+        <LinearLayout
+            android:layout_width="119dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:textColor="#D3C6C6"
+
+                android:text="Move to haven"
+                android:textAlignment="center"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/s7" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="vincenzo"
+                android:textAlignment="center"
+                android:textColor="#D3C6C6"
+
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/s8jpg" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="220dp"
+            android:orientation="vertical"
+
+            >
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="lost"
+                android:textAlignment="center"
+                android:textColor="#D3C6C6"
+
+                android:textSize="20dp" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="140dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/s9" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
